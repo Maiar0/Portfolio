@@ -1,0 +1,1 @@
+This Mod creates Objects around the map which the player can interact with and be teleported to another place creates a database for each player so the last object used can be returned to, Fully configurable by server owner through a configuration file that is populated on server start.
