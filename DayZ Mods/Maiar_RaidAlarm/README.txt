@@ -1,0 +1,1 @@
+This mod can alert players to a raid upon there base, current implementation is using Advanced groups, This mod is part of the reason i wanted formal schooling to learn alot more about networks and traversing something i have little knowledge on. 

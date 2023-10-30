@@ -1,0 +1,19 @@
+class CfgPatches
+{
+	class Maiar_RaidAlarmItem
+	{
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 0.1;
+		requiredAddons[] = 
+		{
+		"DZ_Data",
+		"DZ_Scripts"
+		};
+	};
+};
+class cfgvehicles
+{
+	class Inventory_Base;
+	
+};

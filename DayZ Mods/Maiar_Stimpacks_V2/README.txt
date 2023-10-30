@@ -1,0 +1,1 @@
+This is a simple mod to have an item that refils several recources of the player upon use.
