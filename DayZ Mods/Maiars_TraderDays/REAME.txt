@@ -1,1 +1,1 @@
-This is a mod that works off the back of another mod to change implmentation in a very large way. Allowing a trader system to only be avaible on certain days!
+This is a mod that works off the back of another mod to change implementation in a very large way. Allowing a trader system to only be available on certain days!
