@@ -1,0 +1,69 @@
+{
+    "NumberofExtractionMachines": 3,//Works with up to 9 extraction points, MUST HAVE SAME NUMBER OF MACHINES PLACED if = 0 safezone extraction will only return to last extraction point
+    "RangeSafeExtraction": 1000,//Distance from the extraction machine the player can land when leaving safezone.
+    "SafezoneMachine": [//Safezone machine spawn points place as many as you like
+        {
+            "ExtractionsName": "Maiar_SafezoneExtraction",
+            "Position": [
+                4785.1533203125,
+                339.1748962402344,
+                10376.4755859375
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "ExtractionMachine": [//ExtractionMachines place no more than 9
+        {
+            "ExtractionsName": "Maiar_ExtractionPoint",
+            "Position": [
+                4783.703125,
+                339.17486572265627,
+                10398.1689453125
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "ExtractionsName": "Maiar_ExtractionPoint",
+            "Position": [
+                4779.72705078125,
+                339.2370910644531,
+                10395.5595703125
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "ExtractionsName": "Maiar_ExtractionPoint",
+            "Position": [
+                4774.5830078125,
+                339.2370910644531,
+                10393.0419921875
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "SafezonePosition": [//possible locations when teleported to safezone, you may have as many as you want.
+        {
+            "PossibleLocations": [
+                4785.1533203125,
+                339.1748962402344,
+                10376.4755859375
+            ]
+        }
+    ]
+}

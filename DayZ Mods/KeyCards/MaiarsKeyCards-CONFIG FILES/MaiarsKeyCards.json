@@ -1,0 +1,191 @@
+{
+    "ShouldAlarmPlay": 1,
+    "ShouldDoorAutoClose": 1,
+    "TimeToAutoClose": 1,
+    "ActivateLootCrates": 1,
+    "LootMethod": 1,
+    "Doors": [
+        {
+            "DoorsName": "land_Vaultdoor1",
+            "Position": [
+                4801.00390625,
+                339.1749267578125,
+                10369.4052734375
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootLocation": [
+                4801.00390625,
+                339.1749267578125,
+                10369.4052734375
+            ],
+            "LootOrientaion": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootPoolID": "Tier1",
+            "KeyCard": "Maiar_keyCard_Tier1"
+        },
+        {
+            "DoorsName": "land_Vaultdoor2",
+            "Position": [
+                4799.7578125,
+                339.1749267578125,
+                10371.80859375
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootLocation": [
+                4799.7578125,
+                339.1749267578125,
+                10371.80859375
+            ],
+            "LootOrientaion": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootPoolID": "Tier2",
+            "KeyCard": "Maiar_keyCard_Tier2"
+        },
+        {
+            "DoorsName": "land_Vaultdoor3",
+            "Position": [
+                4798.34765625,
+                339.1749267578125,
+                10374.0322265625
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootLocation": [
+                4798.34765625,
+                339.1749267578125,
+                10374.0322265625
+            ],
+            "LootOrientaion": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootPoolID": "Tier3",
+            "KeyCard": "Maiar_keyCard_Tier3"
+        },
+        {
+            "DoorsName": "land_Vaultdoor4",
+            "Position": [
+                4796.72265625,
+                339.1749267578125,
+                10376.8125
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootLocation": [
+                4796.72265625,
+                339.1749267578125,
+                10376.8125
+            ],
+            "LootOrientaion": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootPoolID": "Tier4",
+            "KeyCard": "Maiar_keyCard_Tier4"
+        },
+        {
+            "DoorsName": "land_Vaultdoor5",
+            "Position": [
+                4795.40576171875,
+                339.1749267578125,
+                10379.4814453125
+            ],
+            "Orienation": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootLocation": [
+                4795.40576171875,
+                339.1749267578125,
+                10379.4814453125
+            ],
+            "LootOrientaion": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "LootPoolID": "Tier5",
+            "KeyCard": "Maiar_keyCard_Tier5"
+        }
+    ],
+    "LootPool": [
+        {
+            "LootPoolID": "Tier1",
+            "Items": [
+                {
+                    "ClassName": "Apple",
+                    "Quantity": 4,
+                    "StackCount": 1,
+                    "Chance": 0.75
+                }
+            ]
+        },
+        {
+            "LootPoolID": "Tier2",
+            "Items": [
+                {
+                    "ClassName": "Pear",
+                    "Quantity": 2,
+                    "StackCount": 1,
+                    "Chance": 0.5
+                }
+            ]
+        },
+        {
+            "LootPoolID": "Tier3",
+            "Items": [
+                {
+                    "ClassName": "Nail",
+                    "Quantity": 3,
+                    "StackCount": 1,
+                    "Chance": 0.8
+                }
+            ]
+        },
+        {
+            "LootPoolID": "Tier4",
+            "Items": [
+                {
+                    "ClassName": "TunaCan",
+                    "Quantity": 5,
+                    "StackCount": 1,
+                    "Chance": 0.9
+                }
+            ]
+        },
+        {
+            "LootPoolID": "Tier5",
+            "Items": [
+                {
+                    "ClassName": "Tripod",
+                    "Quantity": 3,
+                    "StackCount": 1,
+                    "Chance": 0.5
+                }
+            ]
+        }
+    ]
+}
