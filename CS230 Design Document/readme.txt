@@ -1,3 +1,4 @@
+Dennis Ward CS230 12/6/2023
 The client, The Gaming Room, sought assistance in designing a web-based gaming application named Draw It or Lose It. The software required support for multiple teams, players, and unique identifiers for games, teams, and players. The emphasis was on memory efficiency, security, and cross-platform functionality.
 
 In developing the documentation, I excelled in clearly outlining the system architecture through UML diagrams, providing a comprehensive domain model, and evaluating operating platforms, ensuring a thorough understanding of the project's technical aspects.
