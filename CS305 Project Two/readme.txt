@@ -1,3 +1,5 @@
+Dennis Ward CS305 12/6/2023
+
 Artemis Financial, a prominent financial institution, enlisted our expertise to bolster the security of their application. The project's primary objective was to conduct a thorough vulnerability assessment and implement robust security measures.
 
 In addressing the software security vulnerabilities, a meticulous approach was taken. Utilizing dependency checks and a comprehensive code review, we identified and analyzed potential weaknesses. A significant challenge encountered was the presence of outdated libraries within the project, complicating both the assessment process and subsequent modifications.
