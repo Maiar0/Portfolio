@@ -1,0 +1,15 @@
+The problem addressed in our project for this course revolved around managing and processing data related to courses. 
+We tackled tasks such as loading course information from a file, validating the data, and implementing functionality for searching and displaying course details.
+
+To approach this problem, we carefully analyzed the requirements and selected appropriate data structures and algorithms. 
+Understanding data structures was crucial, as it enabled us to choose the most suitable structures for organizing and storing the data effectively. 
+For instance, we used vectors for their simplicity and sequential access properties, hash tables for quick retrieval, and BSTs for efficient searching and sorting.
+
+Throughout the project, we encountered a few roadblocks, mostly related to syntax.
+
+The work on this project expanded my approach to designing software by providing hands-on experience in selecting and implementing data structures and algorithms tailored to specific requirements.
+ It deepened our understanding of the trade-offs involved in choosing different data structures and highlighted the importance of factors like performance, scalability, and ease of maintenance.
+ 
+Furthermore, our work on this project evolved the way we write programs in terms of maintainability, readability, and adaptability.
+ We improved practices such as modularization, proper documentation, adherence to coding standards, and adopting design patterns that promote flexibility and ease of future modifications. 
+ Additionally, encountering real-world problems and collaborating with peers or instructors during the project provided valuable insights into best practices for writing robust and maintainable software.
