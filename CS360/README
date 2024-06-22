@@ -1,0 +1,36 @@
+Purpose
+
+"Stock Sense," is designed to address the critical needs of inventory management. Its primary goal is to streamline inventory tracking and management, allowing users to add,
+ update, and delete inventory items, set alert levels for low stock, and receive SMS notifications for critical inventory levels. The app targets inventory managers, supervisors,
+ and staff, providing them with real-time updates and intuitive interfaces to minimize errors and optimize efficiency.
+ 
+Screens and Features
+
+Login/Registration Screen: Allows users to log in with existing credentials or register as new users. This screen ensures secure access to the app's functionalities.
+Inventory Dashboard: Displays a grid layout of inventory items with options for adding, removing, and updating items. The dashboard provides an intuitive interface for users to manage their inventory efficiently.
+Item Details Screen: Offers detailed information about individual inventory items, including quantity and location. This screen allows users to make informed decisions about their inventory.
+Dialogs: SMS Information, Add item to database.
+Alerts users of critical stock level changes or system updates. This feature ensures that users are always aware of important changes in their inventory.
+The UI designs kept users in mind by focusing on ease of use, real-time updates, and intuitive navigation. The designs were successful because they minimized user errors and streamlined inventory management processes.
+
+Process
+
+Modular Design: The app was designed with modularity in mind, separating different functionalities into distinct classes and methods. This approach made the code more maintainable and easier to understand.
+Encapsulation: Encapsulation was used to keep related data and functions together, reducing dependencies and improving code readability.
+Multithreading: To ensure a responsive UI, background tasks, such as database operations, were handled using threads. This technique prevented the main thread from being blocked, providing a smooth user experience.
+These techniques and strategies can be applied in future projects to ensure clean, maintainable, and efficient code.
+
+Testing
+
+Testing was conducted to ensure that the code was functional and met user needs. The mostly manual testing on phone and android emulator. This process is crucial as it helps identify and fix bugs, ensuring the app works as intended. 
+Testing revealed bugs that needed to be addressed such as crashing when an item was created with no fields. If put into production unit tests should be created for the project. 
+
+Innovation 
+
+Throughout the design and development process, innovation was required to overcome various challenges. For example, integrating real-time SMS notifications required a deep understanding of Android's permissions and SMS APIs. 
+Additionally, designing an intuitive and user-friendly UI required multiple iterations.
+
+Succesful
+
+When I think about this I think about which part took the greatest effort. the Login Screen holds a lot of the functionality for permissions which was particularly difficult to fully understand. 
+The MainAcitivity show a little out of the box thinking. It was created soley to be a parent of the other two main activities so it can hold methods and funciton's that need to be held in each of the main views. 
