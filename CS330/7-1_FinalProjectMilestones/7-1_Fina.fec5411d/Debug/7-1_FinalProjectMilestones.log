@@ -1,0 +1,11 @@
+﻿  ShapeMeshes.cpp
+/3DShapes/ShapeMeshes.cpp(1,1): error C1083: Cannot open source file: '..\..\3DShapes\ShapeMeshes.cpp': No such file or directory
+  ShaderManager.cpp
+/Utilities/ShaderManager.cpp(1,1): error C1083: Cannot open source file: '..\..\Utilities\ShaderManager.cpp': No such file or directory
+  MainCode.cpp
+C:\Users\denni\OneDrive\Documents\GitHub\Portfolio\CS330\7-1_FinalProjectMilestones\Source\MainCode.cpp(4,10): error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  SceneManager.cpp
+C:\Users\denni\OneDrive\Documents\GitHub\Portfolio\CS330\7-1_FinalProjectMilestones\Source\SceneManager.h(12,10): error C1083: Cannot open include file: 'ShaderManager.h': No such file or directory
+  ViewManager.cpp
+C:\Users\denni\OneDrive\Documents\GitHub\Portfolio\CS330\7-1_FinalProjectMilestones\Source\ViewManager.h(12,10): error C1083: Cannot open include file: 'ShaderManager.h': No such file or directory
+  Generating Code...

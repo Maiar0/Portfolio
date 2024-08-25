@@ -1,0 +1,24 @@
+README
+How do I approach designing software?
+I approach software design by first thoroughly understanding the problem, then breaking it down into manageable components. My design process is iterative, involving constant refinement of both the architecture and individual modules as I progress.
+What new design skills has your work on the project helped you to craft?
+This project enhanced my ability to work with 3D object modeling and the application of textures and lighting in OpenGL. I also improved my skills in modular design, ensuring that each component of the project was reusable and efficient.
+What design process did you follow for your project work?
+I followed an iterative design process, starting with a basic framework and progressively adding more complexity. This involved designing simple 3D models first, then applying textures, and finally refining the lighting and navigation.
+How could tactics from your design approach be applied in future work?
+The modular and iterative tactics I used can be applied to any future software development project, ensuring that each part of the code is well-organized, reusable, and open to further improvement.
+How do I approach developing programs?
+I approach program development with a focus on clear, modular code and constant testing. This ensures that each part of the program works correctly before moving on to more complex tasks.
+What new development strategies did you use while working on your 3D scene?
+I implemented new strategies such as multi-texturing and a hybrid lighting model, which were crucial for achieving the visual complexity in the 3D scene.
+How did iteration factor into your development?
+Iteration was key to my development process. I repeatedly refined the 3D models, textures, and lighting setups, ensuring that each element met the project’s requirements and worked together seamlessly.
+How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
+My approach has evolved to be more structured and efficient. I learned to better plan each milestone, focusing on delivering functional, testable code at each stage rather than trying to implement everything at once.
+How can computer science help me in reaching my goals?
+Computer science equips me with the problem-solving skills and technical knowledge needed to tackle complex challenges in various fields, including software development, gaming, and visual simulations.
+How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future educational pathway?
+Working with computational graphics has given me a deeper understanding of how visual elements are created and manipulated in software, which is invaluable for any advanced studies in computer science or related fields.
+How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
+The skills I’ve gained in 3D modeling, texture mapping, and lighting will be directly applicable to careers in game development, virtual reality, and any profession that involves creating or working with visual simulations.
+

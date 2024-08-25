@@ -1,0 +1,11 @@
+To write maintainable and adaptable code, I focus on simplicity and clarity. By organizing the code into well-defined functions and providing clear documentation, 
+I make it easier for others (and myself) to understand and modify the code later. For instance, in the assignment where I built a CRUD Python module,
+I made sure each function had a specific purpose. This approach made it straightforward to connect that module to other parts of the assignment, like the dashboard, and it would be just as easy to reuse in future projects.
+
+When tackling a problem in computer science, I start by breaking it down into smaller, manageable tasks. In assignments like the one where I had to develop a database and a dashboard, 
+I first focused on understanding what each part needed to do. Then, I worked on each component step by step, testing along the way. This methodical approach helps ensure that everything works together smoothly, 
+and it's a strategy I’ll continue to use in future assignments and projects.
+
+Computer scientists are problem solvers. They create solutions that make processes more efficient and effective, whether it’s through algorithms, 
+software, or data management. Even in an academic setting, like the assignments I’ve completed, the goal is to build skills that will eventually be used to help organizations work better. 
+Understanding how to manage data, build user interfaces, and ensure everything functions correctly are all key aspects of computer science that have real-world applications.
