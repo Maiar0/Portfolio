@@ -1,0 +1,22 @@
+Project Overview
+In this project, I developed a pirate intelligent agent that navigates a maze using reinforcement learning techniques, specifically deep Q-learning. 
+The objective was to train the agent to locate a treasure efficiently while avoiding obstacles. The starter code provided defined the maze environment (TreasureMaze.py) 
+and an experience replay object (GameExperience.py). My role involved completing the deep Q-learning implementation in the Jupyter Notebook (TreasureHuntGame.ipynb) 
+by integrating neural network models, designing the Q-training algorithm, and optimizing the agent's exploration and exploitation balance.
+
+Connection to the Field of Computer Science
+This project demonstrates key concepts in reinforcement learning and neural networks, which are integral in the field of artificial intelligence (AI). 
+Computer scientists apply these techniques to develop intelligent systems that can learn from experiences, make predictions, and adapt to changes in dynamic environments. 
+This project showcases how these concepts are used to solve complex pathfinding and decision-making problems, which have real-world applications in fields like robotics, 
+autonomous driving, and logistics.
+
+Problem-Solving Approach as a Computer Scientist
+As a computer scientist, I approach problems by first understanding the requirements and constraints of the task at hand. I break down the problem into smaller,
+manageable components, such as defining the environment, designing the learning model, and establishing a training loop. I then iteratively develop and test solutions, 
+adjusting parameters and debugging code to ensure optimal performance. This methodical, data-driven approach helps in creating efficient, scalable, and effective solutions.
+
+Ethical Responsibilities
+When developing intelligent systems, my ethical responsibilities extend to both the end user and the organization. It is essential to ensure the software is reliable, 
+secure, and does not lead to harmful or unintended consequences. For example, AI algorithms should be designed and tested to minimize biases and avoid making discriminatory 
+or unsafe decisions. Additionally, transparency and explainability are crucial, as users should be informed about how the system operates and makes decisions. As a developer, 
+maintaining the integrity of the data and prioritizing user privacy and safety are fundamental to the trustworthiness of intelligent systems.
