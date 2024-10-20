@@ -1,0 +1,24 @@
+Summarize the project and what problem it was solving.
+The primary goal of this project was to design a smart thermostat system using the TI CC3220S LaunchPad development board. The system aimed to monitor room temperature using the TMP006 sensor,
+ adjust the temperature setpoint using GPIO interrupts, and simulate server communication via UART. This project solved the problem of implementing a responsive temperature control system with cloud connectivity, 
+ meeting SysTec's business requirement for a functional, scalable thermostat prototype​.
+
+What did you do particularly well?
+I effectively implemented a task scheduler to manage temperature readings, button checks, and UART data transmission at precise intervals (200ms, 500ms, and 1000ms).
+This ensured that the system ran efficiently without task interference, providing a responsive user experience when adjusting the setpoint temperature​.
+
+Where could you improve?
+One area of improvement could be optimizing the use of interrupts and timers to reduce the system's power consumption, especially during idle periods. 
+This could make the system more efficient in real-world applications where battery life or energy use is a concern​.
+
+What tools and/or resources are you adding to your support network?
+In this project, I used Texas Instruments' Code Composer Studio and relied on the provided libraries and documentation for GPIO, I2C, UART, and Timer management.
+For future projects, I plan to explore more community-driven resources, such as forums and debugging tools, to further enhance my development capabilities​.
+
+What skills from this project will be particularly transferable to other projects and/or coursework?
+The key transferable skills from this project include working with GPIO interrupts, I2C communication, and UART interfaces, as well as implementing task schedulers for real-time systems.
+These skills are highly relevant for future work in embedded systems, IoT development, and hardware-software integration​.
+
+How did you make this project maintainable, readable, and adaptable?
+I maintained a modular structure for each peripheral (I2C, UART, Timer) and separated them into distinct functions, making the system more maintainable and adaptable for future enhancements.
+This modular design, combined with thorough documentation and clear naming conventions, ensures that the system can be easily modified or extended in future iterations​.
