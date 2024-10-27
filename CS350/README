@@ -1,7 +1,7 @@
 Summarize the project and what problem it was solving.
-The primary goal of this project was to design a smart thermostat system using the TI CC3220S LaunchPad development board. The system aimed to monitor room temperature using the TMP006 sensor,
- adjust the temperature setpoint using GPIO interrupts, and simulate server communication via UART. This project solved the problem of implementing a responsive temperature control system with cloud connectivity, 
- meeting SysTec's business requirement for a functional, scalable thermostat prototype​.
+The primary goal of this project was to design a smart thermostat system using the TI CC3220S LaunchPad development board. The system aimed to monitor room temperature 
+using the TMP006 sensor, adjust the temperature setpoint using GPIO interrupts, and simulate server communication via UART. This project solved the problem of implementing
+a responsive temperature control system with cloud connectivity, meeting SysTec's business requirement for a functional, scalable thermostat prototype​.
 
 What did you do particularly well?
 I effectively implemented a task scheduler to manage temperature readings, button checks, and UART data transmission at precise intervals (200ms, 500ms, and 1000ms).
