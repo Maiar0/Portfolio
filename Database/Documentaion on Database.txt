@@ -1,0 +1,63 @@
+TableName,Field,Type,Description
+Customers,CustomerID,INT AUTO_INCREMENT,Unique identifier for each customer
+Customers,FirstName,VARCHAR(50),Customer's first name
+Customers,LastName,VARCHAR(50),Customer's last name
+Customers,Email,VARCHAR(100),Customer's email address (must be unique)
+Customers,PhoneNumber,VARCHAR(15),Customer's phone number
+Customers,Address,TEXT,Customer's physical address
+Customers,Notes,TEXT,Additional notes about the customer
+Customers,BusinessID,INT,Foreign key linking the customer to a business
+Customers,CreatedAt,TIMESTAMP,Timestamp for when the customer was created
+Customers,UpdatedAt,TIMESTAMP,Timestamp for the last update
+
+Employees,EmployeeID,INT AUTO_INCREMENT,Unique identifier for each employee
+Employees,FirstName,VARCHAR(50),Employee's first name
+Employees,LastName,VARCHAR(50),Employee's last name
+Employees,Email,VARCHAR(100),Employee's email address (must be unique)
+Employees,PhoneNumber,VARCHAR(15),Employee's phone number
+Employees,JobTitle,VARCHAR(50),Employee's job title
+Employees,Department,VARCHAR(50),Department the employee belongs to
+Employees,HireDate,DATE,Date when the employee was hired
+Employees,Salary,DECIMAL(10,2),Employee's salary
+Employees,Address,TEXT,Employee's address
+Employees,Notes,TEXT,Additional notes about the employee
+Employees,CreatedAt,TIMESTAMP,Timestamp for when the employee record was created
+Employees,UpdatedAt,TIMESTAMP,Timestamp for the last update
+
+Businesses,BusinessID,INT AUTO_INCREMENT,Unique identifier for each business
+Businesses,BusinessName,VARCHAR(100),Name of the business (must be unique)
+Businesses,Industry,VARCHAR(50),Industry of the business
+Businesses,ContactEmail,VARCHAR(100),Email address for contacting the business
+Businesses,ContactPhone,VARCHAR(15),Phone number for contacting the business
+Businesses,Address,TEXT,Address of the business
+Businesses,Notes,TEXT,Additional notes about the business
+Businesses,CreatedAt,TIMESTAMP,Timestamp for when the business was created
+Businesses,UpdatedAt,TIMESTAMP,Timestamp for the last update
+
+Products,ProductID,INT AUTO_INCREMENT,Unique identifier for each product
+Products,ProductName,VARCHAR(100),Name of the product
+Products,Description,TEXT,Description of the product
+Products,Price,DECIMAL(10,2),Price of the product
+Products,StockQuantity,INT,Number of units in stock
+Products,CreatedAt,TIMESTAMP,Timestamp for when the product was created
+Products,UpdatedAt,TIMESTAMP,Timestamp for the last update
+
+Orders,OrderID,INT AUTO_INCREMENT,Unique identifier for each order
+Orders,CustomerID,INT,Foreign key linking the order to a customer
+Orders,OrderDate,TIMESTAMP,Timestamp for when the order was placed
+Orders,TotalAmount,DECIMAL(10,2),Total monetary value of the order
+Orders,Status,VARCHAR(50),Current status of the order (e.g., "Pending")
+Orders,Notes,TEXT,Additional notes about the order
+
+OrderDetails,OrderDetailID,INT AUTO_INCREMENT,Unique identifier for each order detail record
+OrderDetails,OrderID,INT,Foreign key linking to an order
+OrderDetails,ProductID,INT,Foreign key linking to a product
+OrderDetails,Quantity,INT,Quantity of the product in the order
+OrderDetails,Price,DECIMAL(10,2),Price of the product at the time of the order
+
+Returns,ReturnID,INT AUTO_INCREMENT,Unique identifier for each return record
+Returns,OrderID,INT,Foreign key linking to an order
+Returns,ProductID,INT,Foreign key linking to a product
+Returns,ReturnDate,TIMESTAMP,Timestamp for when the return was processed
+Returns,Quantity,INT,Quantity of the product being returned
+Returns,Reason,TEXT,Reason for the return
